@@ -1,0 +1,311 @@
+/* X-Small devices (portrait phones, less than 320px) */
+@media (max-width: 320px) {
+  .menu .navbar-nav .nav-item .nav-link {
+    color: #000;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #df8133;
+  }
+
+  .menu .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+    background: #df8133;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+  .testHead h3,
+  .videoHead h3,
+  .processCont h3,
+  .teamHead h3,
+  .blogTitle h3,
+  .projectContent h3,
+  .serviceHead h3,
+  .aboutContent h3 {
+    font-size: 40px;
+  }
+
+  .btnAndSign a {
+    margin-bottom: 10px;
+  }
+  .blogPartTitle,
+  .projectContent {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .teamPart .cmnSubHead {
+    font-size: 20px;
+  }
+
+  .processDetails .number {
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    margin-right: 30px;
+  }
+  .processCont {
+    padding: 50px 10px;
+  }
+  .processDetails .number::before {
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .processDetails .number span {
+    transform: translateX(37%);
+  }
+
+  .testimonialProfile .tab-content {
+    padding: 10px;
+    margin: 0 7%;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 320.1px) and (max-width: 576px) {
+  .menu .navbar-nav .nav-item .nav-link {
+    color: #000;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #df8133;
+  }
+
+  .menu .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+    background: #df8133;
+  }
+  .bannerHeading h2 br {
+    display: none;
+  }
+  .bannerHeading h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-right: 0%;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-family: 'commissioner', sans-serif;
+  }
+  .bannerHeading {
+    border-left: 3px solid #df8133;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .bannerHeading p {
+    font-size: 14px;
+    padding-right: 0%;
+  }
+
+  .cmnBtn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .menu .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+    background: #df8133;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+  .testHead h3,
+  .videoHead h3,
+  .processCont h3,
+  .teamHead h3,
+  .blogTitle h3,
+  .projectContent h3,
+  .serviceHead h3,
+  .aboutContent h3 {
+    font-size: 40px;
+  }
+
+  .btnAndSign a {
+    margin-bottom: 10px;
+  }
+
+  .carousel-caption {
+    right: 10%;
+    bottom: -0.75rem;
+    left: 10%;
+  }
+
+  .serviceItem {
+    padding: 30px 10px;
+  }
+
+  .serviceItem img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .blogPostCont {
+    padding: 40px 10px;
+  }
+
+  .footerContect h5 {
+    font-size: 16px;
+  }
+
+  .footerContect {
+    padding: 20px 15px;
+    border: 1px solid #abaeb9;
+  }
+
+  .footerContect img {
+    width: 40px;
+    height: 40px;
+  }
+  .footerContect p {
+    font-size: 12px;
+  }
+  .footerContect {
+    gap: 10px !important;
+  }
+  .btmBtn {
+    display: none;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 576.1px) and (max-width: 768px) {
+  .menu .navbar-nav .nav-item .nav-link {
+    color: #000;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #df8133;
+  }
+
+  .menu .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+    background: #df8133;
+  }
+  .bannerHeading h2 br {
+    display: none;
+  }
+  .bannerHeading h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-right: 0%;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-family: 'commissioner', sans-serif;
+  }
+  .bannerHeading {
+    border-left: 3px solid #df8133;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .bannerHeading p {
+    font-size: 14px;
+    padding-right: 0%;
+  }
+
+  .menu .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+    background: #df8133;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+  .testHead h3,
+  .videoHead h3,
+  .processCont h3,
+  .teamHead h3,
+  .blogTitle h3,
+  .projectContent h3,
+  .serviceHead h3,
+  .aboutContent h3 {
+    font-size: 40px;
+  }
+
+  .btmBtn {
+    display: none;
+  }
+
+  .btnAndSign {
+    display: flex;
+  }
+
+  .carousel-caption {
+    right: 10%;
+    bottom: -0.75rem;
+    left: 10%;
+  }
+
+  .serviceItem {
+    padding: 30px 10px;
+  }
+
+  .serviceItem img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .blogPostCont {
+    padding: 40px 10px;
+  }
+
+  .footerContect h5 {
+    font-size: 16px;
+  }
+
+  .footerContect {
+    padding: 20px 15px;
+    border: 1px solid #abaeb9;
+  }
+
+  .footerContect img {
+    width: 40px;
+    height: 40px;
+  }
+  .footerContect p {
+    font-size: 12px;
+  }
+  .footerContect {
+    gap: 10px !important;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  ...;
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  ...;
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  ...;
+}
